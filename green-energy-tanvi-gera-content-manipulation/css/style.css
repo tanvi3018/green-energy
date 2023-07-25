@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Crete+Round&family=Lato:wght@300&display=swap');
+/*
+
+font-family: 'Crete Round', serif;
+font-family: 'Lato', sans-serif;
+
+
+*/
+
+*{
+    margin: auto;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body{
+    background-color:#24422a ;
+    line-height: 1;
+    padding: 2rem;
+    margin:4rem;
+    background-image: url(../img/background.jpg);
+  
+}
+
+header h1{
+    font-family: 'Crete Round', serif;
+    text-align: center;
+    margin: 1rem;
+    margin-top: -3rem;
+    font-size: 7rem;
+    color: #ffffff;
+}
+
+header p{ 
+    margin: 0rem 1rem 10rem 1rem;
+    font-size: 2rem;
+    color: #ffffff;
+    font-family: 'Crete Round', serif;
+    font-size: 1.5rem;
+    text-align: center;
+}
+header{
+    margin-bottom: 7rem;
+}
+
+h1{
+    text-align: center;
+}
+
+img{
+    width:100%;    
+}
+
+nav {
+    height: 4rem;
+    margin-top: -17rem;
+    margin-bottom: 4rem;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    width: 100%;
+
+  }
+  
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: safe;
+    justify-content: center;
+  }
+  
+nav li {
+    margin: 1rem;
+  }
+  
+nav ul li a {
+    font-family: 'Lato', sans-serif;
+    font-size: 1rem;
+    color:#024a43;
+    text-decoration: none;
+    padding: 0.5rem;
+  }
+
+footer{
+    width: 100%;
+   margin: 1rem 1rem 1rem 0rem;
+   padding: 2rem 2rem 2rem 2rem;
+    display: flex;
+    justify-content:space-evenly;
+    background-color:#092f1c;
+    color: #f2e5d5;
+}
+
+button{
+   
+    width:6rem;
+    height: 2rem;
+    display: block;
+    border-radius: 30%;
+    margin: 1.2rem 0.5rem 0.5rem 0rem;
+
+}
+
+.container{
+    background-color: #092f1c;
+    padding: 0.5rem;
+    display: flex;
+    height: auto;
+    width: auto;
+
+}
+
+
+
+
+.button-group{
+
+    margin: 4rem 4rem 4rem 4rem; 
+}
+
+#btn1{
+    background-color: #000000;
+}
+
+#btn3{
+    background-color: #446743;
+}
+
+#content{
+    margin: -5.5rem 0.5rem 0.5rem 4rem;
+
+}
+
+#content h2{
+    position: relative;
+    top: 80%;
+    left: -70%;
+    transform: rotate(90deg);
+    color: rgb(255, 255, 255);
+    font-size: 10rem;
+    font-family: 'Crete Round', serif;
+}
+
+#content p{
+    position: relative;
+    top: -96%;
+    left: 65%;
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    font-family: 'Lato', sans-serif;
+    width: 24rem;
+    margin-left: -1rem;
+    margin-bottom: -7rem;
+    background-color:black;
+    padding: 1rem 3rem 1rem 1rem;
+    border-radius: 1%;
+}
+
+
+
+
+#contact h2{
+
+    font-family: 'Crete Round', serif;
+    padding: 1rem;
+    margin-top: -1.5rem;
+    font-size: 2rem;
+    color:white;
+
+}
+
+#contact p{
+
+    font-family: 'Lato', sans-serif;
+    padding: 1rem;
+    margin-top: -1.5rem;
+    font-size: 1rem;
+    color: white;
+
+}
+
+
+#socials a{
+    text-decoration: none;
+    color: black;
+    margin: 1rem;
+    padding: 1rem 1rem 1rem 1rem;
+    
+    font-family: 'Crete Round', serif;
+    background-color: #ffffff;
+    border-radius: 20%;
+    justify-content: end;
+}
+
